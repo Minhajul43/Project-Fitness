@@ -29,3 +29,21 @@
       display: flex;
       flex-direction: column;
     } */
+     .run-container{
+      padding: 40px 54px;
+      margin: 50px 190px;
+      display: flex;
+      justify-content: space-between;
+      /* align-items: center; */
+      border-radius: 18px;
+      background:#222222;
+      height: 371px;
+      
+     }
+
+    .run-container img{
+      width: auto;
+      height: auto;
+      border: none;
+      border-radius: 18px;
+    }
