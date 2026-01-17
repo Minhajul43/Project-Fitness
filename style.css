@@ -1,0 +1,17 @@
+ body{
+      background-color: black;
+      color:white;
+    }
+    h1{
+      color: #E6533C;
+    }
+    .nav-bar{
+      padding: 57px 190px;
+    }
+
+    .Home{
+      background-color: #E6533C;
+      border-radius:46px;
+      width: 92px;
+      height: 28px;
+    }
