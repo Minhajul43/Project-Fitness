@@ -5,7 +5,7 @@
     h3{
       color: #E6533C;
     }
-    .nav-bar, .banner, .container-images{
+    .nav-bar, .banner, .container-images, .exercise-container{
       padding: 57px 190px;
     }
 
@@ -46,4 +46,42 @@
       height: auto;
       border: none;
       border-radius: 18px;
+    }
+
+    /* Exercise section design */
+
+    .exercise-container .container-img{
+      height: 100%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(8,1fr); 
+      grid-template-rows: repeat(8);
+
+    }
+
+    .container-img img{
+      height: 150px;
+      width: 100%;
+    }
+
+    .container-img .first{
+      grid-column: span 2;
+    }
+
+    .container-img .second{
+      grid-column: span 4;
+    }
+
+    .container-img .third{
+      grid-column: span 2;
+    }
+
+    .container-img .four{
+      grid-column: span 3;
+    }
+    .container-img .five{
+      grid-column: span 2;
+    }
+    .container-img .six{
+      grid-column: span 3;
     }
