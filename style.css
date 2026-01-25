@@ -85,3 +85,48 @@
     .container-img .six{
       grid-column: span 3;
     }
+
+    /* BMI calculation */
+
+    .BMI-chart{
+      height: 400px;
+      width: 100%;
+      padding: 50px 100px;
+      background:#222222;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+
+    th,td{
+      border: 1px solid #cac4c4;
+      padding: 12px;
+      text-align: left;
+    }  
+
+
+
+.calculator-column{
+  padding: 10px;
+  height: 160px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 4px;
+  
+}  
+.calculator-column p{
+  padding: 4px;
+  height: 48px;
+  width: 100%;
+  gap: 4px;
+  /* border: 1px solid white; */
+  border-radius: 8px;
+  background:rgb(74, 72, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}  
