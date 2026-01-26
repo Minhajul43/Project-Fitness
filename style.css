@@ -5,7 +5,7 @@
     h3{
       color: #E6533C;
     }
-    .nav-bar, .banner, .container-images, .exercise-container{
+    .nav-bar, .banner, .container-images, .exercise-container, .trainer-photo{
       padding: 57px 190px;
     }
 
@@ -128,5 +128,18 @@
   justify-content: center;
   align-items: center;
 
-  
 }  
+
+/*  Trainer Section */
+.trainer-photo img{
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+}
+.trainer-photo{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 16px;
+}
+
