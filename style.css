@@ -143,3 +143,21 @@
   gap: 16px;
 }
 
+/* Footer part */
+.foot-container{
+  padding: 57px 190px;
+  height: 300px;
+  width: 100%;
+  background:#201e1e;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.footer{
+  color: #E6533C;
+}
+footer p{
+  background:#201e1e;
+  margin-bottom: 8px;
+}
