@@ -161,3 +161,83 @@ footer p{
   background:#201e1e;
   margin-bottom: 8px;
 }
+/* responsive design */
+@media (max-width:576px){
+
+.nav-bar,
+.banner,
+.container-images,
+.exercise-container,
+.trainer-photo{
+  padding:20px;
+}
+
+/* navbar */
+
+.nav-content{
+  flex-direction:column;
+  gap:10px;
+}
+
+.nav-items{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+/* banner */
+
+.banner{
+  flex-direction:column;
+  text-align:center;
+}
+
+/* habit */
+
+.container-images{
+  grid-template-columns:repeat(1,1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+/* run section */
+
+.run-container{
+  flex-direction:column;
+  margin:30px 20px;
+  text-align:center;
+}
+
+/* exercise */
+
+.exercise-container .container-img{
+  grid-template-columns:repeat(1,1fr);
+}
+
+.container-img img{
+  height:120px;
+}
+
+/* BMI */
+
+.BMI-chart{
+  flex-direction:column;
+  padding:20px;
+}
+
+/* trainer */
+
+.trainer-photo{
+  grid-template-columns:repeat(1,1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+
+.foot-container{
+  flex-direction:column;
+  text-align:center;
+}
+
+}
